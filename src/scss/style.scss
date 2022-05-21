@@ -1,13 +1,97 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    
-  }
-  
-  body {
-    background-color: dimgray;
-  }
-  
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #122137;
+  color: #c9d3f3;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+header nav {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav .logo {
+  color: #54ffda;
+  font-weight: 600;
+}
+.menu {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu ul {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu ul li {
+  margin: 0 0.8rem;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #c9d3f3;
+}
+
+.menu .resume a {
+  text-decoration: none;
+  color: #54ffda;
+  border: 1px solid #54ffda;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 4rem;
+}
+main section {
+  width: 100%;
+  margin-top: 14rem;
+}
+
+main section h1 {
+  font-size: 1.6rem;
+  color: #54ffda;
+  margin: 1.6rem 0;
+}
+main section h2 {
+  font-size: 5rem;
+  color: #dfdfdf;
+  margin: 1.6rem 0;
+  font-weight: 700;
+}
+
+main section h3 {
+  font-size: 5rem;
+  color: #758499;
+  margin: 1.6rem 0;
+  font-weight: 700;
+}
+
+main section p {
+  font-size: 1.4rem;
+  color: #758499;
+  margin: 1.6rem 0 0;
+  max-width: 60%;
+  line-height: 1.5rem;
+}
+
+main section a {
+  text-decoration: none;
+  color: #54ffda;
+  border: 1px solid #54ffda;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  margin: 1.6rem 0 0;
+  display: inline-block;
+}
+
+section.about h2 {
+  font-size: 1rem;
+}
